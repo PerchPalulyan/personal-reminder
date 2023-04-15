@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.i("UWC", "Activity created");
+        Log.i("UWC", "Activity created new");
 
         // Set up the RecyclerView to display the data
         RecyclerView rv = findViewById(R.id.item_list);
